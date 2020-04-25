@@ -21,7 +21,7 @@ def random_normalized(d1, d2):
 class HMM:
     def __init__(self, M):
         self.M = M # number of hidden states
-    
+
     def fit(self, X, max_iter=30):
         t0 = datetime.now()
         np.random.seed(123)
